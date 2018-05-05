@@ -8,9 +8,9 @@
     "platforms": ["ios", "android"],
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./src/assets/rover.png",
+    "icon": "./assets/rover.png",
     "splash": {
-      "image": "./src/assets/rover.png",
+      "image": "./assets/rover.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
