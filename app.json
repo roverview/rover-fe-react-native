@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "roverview-react-native",
+    "description": "A very interesting project.",
+    "slug": "roverview-react-native",
+    "privacy": "public",
+    "sdkVersion": "27.0.0",
+    "platforms": ["ios", "android"],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src//assets/rover.png",
+    "splash": {
+      "image": "./src/assets/rover.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "roverview"
+    }
+  }
+}
