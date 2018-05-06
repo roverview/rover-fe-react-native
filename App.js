@@ -4,13 +4,13 @@ import { StackNavigator } from 'react-navigation';
 import { View } from 'react-native';
 import { COLOR, ThemeProvider } from 'react-native-material-ui';
 
-import Home from './src/components/Home/home.js';
+import Home from './src/views/home.js';
 
 // const SCREEN_WIDTH = Dimensions.get('window').width;
 
 const uiTheme = {
   palette: {
-      primaryColor: COLOR.green500,
+      primaryColor: COLOR.black,
       accentColor: COLOR.pink500,
   },
 };
@@ -28,10 +28,10 @@ const MainRoot = StackNavigator(
       activeBackgroundColor: 'transparent',
       inactiveTintColor: '#ffffff',
       inactiveBackgroundColor: 'transparent',
-      labelStyle: {
-        fontSize: 15,
-        marginLeft: 0,
-      },
+      // labelStyle: {
+      //   fontSize: 15,
+      //   marginLeft: 0,
+      // },
     },
   }
 );
