@@ -2,18 +2,18 @@ import * as React from 'react';
 import Expo from 'expo';
 import { View, Text, Image } from 'react-native';
 
-import { Header, Card } from 'react-native-elements';
+import NavBar from './navbar.js';
 
 class Home extends React.Component {
   render() {
     return (
       <View>
-        <Header 
-          leftComponent={{ text: 'RoverView', color: '#fff' }}
-          rightComponent={{ icon: 'menu', color: '#fff' }} />
-        <Image
-          source={(require('../images/mast-rover-head.jpg'))}
-        />
+        <NavBar />
+          <Image
+            style={{ flex: 1, width: undefined, height: undefined }}
+            source={(require('../images/mast-rover-head.jpg'))}
+            resizeMode={'contain'}
+          />
       </View>
     );
   }
